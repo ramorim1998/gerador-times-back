@@ -107,9 +107,21 @@ app.get('/health', async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 });
-
+app.get('/', (req, res) => {
+  res.json({ 
+    message: '🚀 Backend do Gerador de Times funcionando!',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      api: '/api/groups',
+      documentation: 'Veja o README para mais informações'
+    },
+    timestamp: new Date()
+  });
+});
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Backend rodando na porta ${PORT}`);
   console.log(`📊 Environment: ${process.env.NODE_ENV || 'development'}`);
 });
+
