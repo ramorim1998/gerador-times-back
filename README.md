@@ -1,4 +1,4 @@
-# 🏆 Gerador de Times - Team Shuffler
+# 🏆 Gerador de Times - Squad Maker
 
 ![Demo](https://img.shields.io/badge/Status-🚀_Production-brightgreen)
 ![Tech](https://img.shields.io/badge/Stack-Full--Stack-orange)
