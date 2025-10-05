@@ -25,11 +25,6 @@ Um aplicativo web inteligente para gerar times aleatórios e gerenciar partidas 
 
 👉 **[Acesse o App](https://gerador-times.netlify.app)**
 
-## 📸 Screenshots
-
-| Grupos | Partidas | Estatísticas |
-|--------|----------|--------------|
-| ![Grupos](screenshots/groups.png) | ![Partidas](screenshots/matches.png) | ![Stats](screenshots/stats.png) |
 
 ## 💡 Casos de Uso
 
